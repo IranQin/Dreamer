@@ -23,7 +23,7 @@ from transformers import (
     T5Tokenizer,
 )
 
-from fastchat.conversation import Conversation, get_conv_template
+from fastchat.conversation_v01 import Conversation, get_conv_template
 from fastchat.model.compression import load_compress_model
 from fastchat.model.monkey_patch_non_inplace import (
     replace_llama_attn_with_non_inplace_operations,
