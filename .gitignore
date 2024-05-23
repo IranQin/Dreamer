@@ -1,0 +1,5 @@
+MineDreamer_7B_inference_output_15000/
+MineDreamer_7B_inference_output_20000/
+output/
+output_mllm/
+pretrain_ckpt/
